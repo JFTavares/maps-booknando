@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Mapeamento de imagens - BOOKNANDO</title>
+	<meta name="description" content="Mapeamento de imagens - BOOKNANDO">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+<!-- All you need is this CSS and these JS libraries -->
+	<link rel="stylesheet" href="image-map-creator.bundle.css"/>
+	<script src="image-map-creator.bundle.js"></script>
+	<!-- In a production environment you should replace these with their '.min.js' minified version -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js"></script>
+<!--  End of JS libraries requierments  -->
+
+</head>
+
+<body>
+
+	<!-- A <div> with an id -->
+	<div id="div-1" style="position: relative;"></div>
+
+
+	<!-- A <script> to enable the tool on the disired div -->
+	<script type="text/javascript">
+		let imcreator = new imageMapCreator("div-1", 700, 500);
+	</script>
+
+
+
+</body>
+
+</html>
